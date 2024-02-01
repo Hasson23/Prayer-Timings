@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiliyada Salaadda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div style="height: 100vh;">
+
+
+        <div id="title">
+            <h1 id="city">Banaadir</h1>
+            <h6 style="font-size: 30px; margin-top: 30px; font-weight: 200;" id="date"></h6>
+        </div>
+        <hr style="width: 90%; margin: 10px auto; border-color: #a4a2a8;">
+
+
+        <div class="cards">
+            <div class="card">
+                <div class="head">
+                    <h1>Fajir</h1>
+                </div>
+                <div class="body">
+                    <h1 id="fjr"></h1>
+                </div>
+            </div>
+            <div class="card">
+                <div class="head">
+                    <h1>Qorrax</h1>
+                </div>
+                <div class="body" id="qorax">
+                    <h1 id="shr">4:39am</h1>
+                </div>
+            </div>
+            <div class="card">
+                <div class="head">
+                    <h1>Duhur</h1>
+                </div>
+                <div class="body">
+                    <h1 id="duh">4:39am</h1>
+                </div>
+            </div>
+            <div class="card">
+                <div class="head">
+                    <h1>Casir</h1>
+                </div>
+                <div class="body">
+                    <h1 id="csr">4:39am</h1>
+                </div>
+            </div>
+            <div class="card">
+                <div class="head">
+                    <h1>Maqrib</h1>
+                </div>
+                <div class="body">
+                    <h1 id="mqr">4:39am</h1>
+                </div>
+            </div>
+            <div class="card">
+                <div class="head">
+                    <h1>Cisho</h1>
+                </div>
+                <div class="body">
+                    <h1 id="csh">4:39am</h1>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div class="center" style="margin-left: 40%; ">
+            <select name="" id="citySelect" style="width: 300px;background: linear-gradient(45deg, #5709ee, #7a37bf); padding: 2px;border-color: aliceblue; border-radius: 12px; color: aliceblue; height: 35px; font-size: 25px;">
+                
+            </select>
+        </div>
+    </div>
+
+
+
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
